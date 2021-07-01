@@ -14,7 +14,6 @@ export default function Loading({ isLoading }) {
       <div />
       <span>
         <section {...containerProps}>{indicatorEl}</section>
-        Loading
       </span>
     </Container>
   );

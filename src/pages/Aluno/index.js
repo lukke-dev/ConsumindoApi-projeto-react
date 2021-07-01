@@ -14,7 +14,7 @@ import history from '../../services/history';
 import * as actions from '../../store/modules/auth/actions';
 
 export default function Aluno({ match }) {
-  const id = get(match, 'params.id', 0);
+  const id = get(match, 'params.id', '');
   const [nome, setNome] = useState('');
   const [sobrenome, setSobrenome] = useState('');
   const [email, setEmail] = useState('');

@@ -22,6 +22,7 @@ export const ProfilePicture = styled.div`
   padding: 0 0 20px;
   position: relative;
   margin-top: 20px;
+  z-index: 0;
 
   img {
     width: 180px;
